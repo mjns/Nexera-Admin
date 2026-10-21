@@ -4,6 +4,8 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'node:path'
 
 export default defineConfig({
+  // Relative asset paths so the build works under GitHub Pages' /Nexera-Admin/ path.
+  base: './',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

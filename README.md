@@ -18,6 +18,12 @@ npm run dev      # local dev server
 npm run build    # type-check and production build
 ```
 
+## Live preview
+
+Every push to `main` is built and published to GitHub Pages: https://mjns.github.io/Nexera-Admin/
+
+Opening `index.html` directly from disk shows a blank page; use `npm run dev` or the Pages link.
+
 ## Structure
 
 - `src/index.css` – design tokens (colors, font) as Tailwind theme variables
